@@ -26,16 +26,7 @@
         .changing-color {
             animation: changeColor .5s infinite;
         }
-        header img{
-            position: absolute
-            top: 10px;
-            left: 10px;
-            max-height: 50px;
-        }
-    </style>
-</head>
-<body>
-    <style>
+        
         body {
             background-color: #FFB6C1; /* Salmon Pink */
             margin: 0;
@@ -46,6 +37,19 @@
             color: #800000; /* Maroon */
             text-align: center;
             padding: 10px;
+            position: relative;
+        }
+        .logo-left {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            max-height: 50px;
+        }
+        .logo-right {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            max-height: 50px;
         }
         h1 {
             font-size: 60px;
@@ -82,9 +86,9 @@
 </head>
 <body>
     <header>
-        <img src="jy2d479iccl71.gif" alt="yummy.gif">
+        <img src="jy2d479iccl71.gif" alt="yummy.gif" class= "logo-left">
         <h1 class="changing-color">PINKUS.BIZ</h1>
-        <img src="jy2d479iccl71.gif" alt="yummy.gif">
+        <img src="jy2d479iccl71.gif" alt="yummy.gif" class= "logo-right">
     </header>
     
     <div class="video-container">
